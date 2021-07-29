@@ -8,7 +8,6 @@ function secondMax(arr: number[]): number {
         } else if (n > second) {
             second = n;
         }
-
     });
     return second;
 }
